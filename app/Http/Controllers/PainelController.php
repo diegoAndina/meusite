@@ -41,7 +41,7 @@ class PainelController extends Controller
 
         Mensagem::create($dados);
 
-        return   redirect('painel');
+        return   redirect('/');
     }
 
     /**
